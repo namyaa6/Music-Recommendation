@@ -1,0 +1,57 @@
+# Virtual Environment - MUST IGNORE
+venv/
+env/
+ENV/
+.venv/
+
+# Python compiled files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Data files (too large for Git)
+data/raw/*
+data/processed/*
+*.csv
+*.tsv
+*.json
+*.xlsx
+*.xls
+
+# Model files (too large)
+models/*.pkl
+models/*.joblib
+models/*.h5
+models/*.pt
+models/*.pth
+
+# Environment variables
+.env
+.env.local
+
+# IDE specific
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS specific
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Results (images can be committed, but large files shouldn't)
+# Comment out if you want to commit visualizations
+# results/*.png
+# results/*.jpg
